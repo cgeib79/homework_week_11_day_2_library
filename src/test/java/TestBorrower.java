@@ -1,4 +1,5 @@
 import org.junit.Before;
+import org.junit.Test;
 
 public class TestBorrower {
     private Borrower borrower;
@@ -7,4 +8,6 @@ public class TestBorrower {
     public void before(){
         borrower = new Borrower("Christian");
     }
+
+
 }
