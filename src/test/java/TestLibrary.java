@@ -20,7 +20,11 @@ public class TestLibrary {
 
     @Test
     public void canAddBooks(){
-        library.addBooks(books);
+        if(library.getBookCount()<20){
+            library.addBooks(books);
+        }
         assertEquals(1, library.getBookCount());
     }
+
+
 }
