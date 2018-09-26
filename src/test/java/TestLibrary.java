@@ -17,4 +17,10 @@ public class TestLibrary {
      public void canCountBooks(){
          assertEquals(0, library.getBookCount());
         }
+
+    @Test
+    public void canAddBooks(){
+        library.addBooks(books);
+        assertEquals(1, library.getBookCount());
+    }
 }

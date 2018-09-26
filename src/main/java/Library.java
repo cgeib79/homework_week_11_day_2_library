@@ -11,4 +11,8 @@ public class Library {
     public int getBookCount() {
         return this.book.size();
     }
+
+    public void addBooks(Books books) {
+        this.book.add(books);
+    }
 }
